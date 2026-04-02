@@ -1,0 +1,19 @@
+[project]
+name = "listen"
+version = "0.1.0"
+description = "HTTP server + job manager for remote agent execution"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pyyaml",
+    "aiosqlite>=0.20",
+    "apscheduler>=3.10,<4",
+    "httpx>=0.25",
+    "tzdata",
+    "psutil>=7.2.2",
+    "python-multipart>=0.0.22",
+    "mss>=9.0",
+    "pillow>=10.0",
+    "pyautogui>=0.9",
+]

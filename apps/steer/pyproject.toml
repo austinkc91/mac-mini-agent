@@ -1,0 +1,20 @@
+[project]
+name = "steer-cli"
+version = "0.3.0"
+description = "macOS GUI automation CLI for AI agents"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+    "pillow>=10.0",
+    "pytesseract>=0.3",
+    "pyautogui>=0.9",
+    "pyperclip>=1.8",
+    "mss>=9.0",
+    "psutil>=5.9",
+    "pyobjc-framework-Quartz>=10.0",
+    "pyobjc-framework-ApplicationServices>=10.0",
+    "pyobjc-framework-Cocoa>=10.0",
+]
+
+[project.scripts]
+steer = "main:cli"

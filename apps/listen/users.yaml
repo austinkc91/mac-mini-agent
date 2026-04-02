@@ -1,0 +1,9 @@
+users:
+  austin:
+    password_hash: "d03fff5f1323b9248f49e0bbb2ba4914:ahBqu+SVjGQTuI1WcQVSo3gcmJT+6KpII8mwhRAEOsM="
+    display_name: "Austin"
+    email: "clawbot91@gmail.com"
+  madison:
+    password_hash: "8a7bae0124cbf9b9ee10f5e55242f4e2:VeuNcRY5a1/dQAInP0aitPxoGAujaVUQP0B/Jls7eEY="
+    display_name: "Madison"
+    email: "madison.cypert@gmail.com"

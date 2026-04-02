@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "telegram-agent"
+version = "0.1.0"
+description = "Telegram bot for remote agent control. Send commands, images, and files to your Linux agent."
+requires-python = ">=3.11"
+dependencies = [
+    "python-telegram-bot>=21.0",
+    "httpx>=0.25",
+    "pyyaml>=6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "main.py",
+    "bot.py",
+]

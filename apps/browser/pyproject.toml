@@ -1,0 +1,17 @@
+[project]
+name = "browser"
+version = "0.1.0"
+description = "Browser automation via Playwright for macOS"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=12.1.1",
+    "playwright>=1.40",
+    "typer>=0.9",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

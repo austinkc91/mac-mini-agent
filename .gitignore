@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.db
+
+# Logs
+logs/
+*.log
+
+# Job data
+apps/listen/jobs/
+apps/listen/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# UV lock files (regenerated per platform)
+uv.lock
+
+# Temp files
+*.tmp

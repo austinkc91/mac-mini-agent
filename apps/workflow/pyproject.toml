@@ -1,0 +1,19 @@
+[project]
+name = "workflow"
+version = "0.1.0"
+description = "Multi-app workflow engine for coordinating actions across apps"
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.9",
+    "httpx>=0.25",
+    "pyyaml>=6.0",
+    "fpdf2>=2.8.7",
+    "pymupdf>=1.27.2.2",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
